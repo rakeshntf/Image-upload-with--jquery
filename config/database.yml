@@ -12,7 +12,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: carrierwave_jquery_file_upload_development
+  database: cjfu_development
   pool: 5
   username: root
   password:
@@ -25,7 +25,7 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: carrierwave_jquery_file_upload_test
+  database: cjfu_test
   pool: 5
   username: root
 
@@ -34,7 +34,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: carrierwave_jquery_file_upload_production
+  database: cjfu_production
   pool: 5
   username: root
 
